@@ -159,12 +159,16 @@ MSBuild  D:\Dev\MyProject\project.sln /t:Rebuild /p:Configuration="Debug" /p:Pla
 
 1. 從 VisualStudio 中的 output 視窗找到 VS 是用哪邊的 MSBuild 去編譯專案。（所以也可以直接拿這個 MSBuild 的 bin 資料夾路徑作為環境變數設定）
 
+ ![image](https://raw.githubusercontent.com/mvpdw06/getting-start-with-MSBuild/master/img/vs%20output%20msbuild.png)
+
 2. Windows 環境變數設定。(加上環境變數請用 ; 分號隔開，不要取代原本的東西，否則會發生很可怕的事...)
 
+ ![image](https://raw.githubusercontent.com/mvpdw06/getting-start-with-MSBuild/master/img/enviroment%20variable.png)
+
 3. svn command line 安裝。 (預設這個選項是不安裝的，請手動把他打開)
+
+ ![image](https://raw.githubusercontent.com/mvpdw06/getting-start-with-MSBuild/master/img/svn%20command%20line.png)
 
 ## References
 
 1. [MSBuild](https://msdn.microsoft.com/zh-tw/library/0k6kkbsd.aspx) in MSDN.
-
-
