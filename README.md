@@ -123,7 +123,7 @@ MSBuild  D:\Dev\MyProject\project.sln /t:Rebuild /p:Configuration="Debug" /p:Pla
 
 1. 程式版本更新
 
-  版本控管軟體有很多套，這邊以 svn 為例，如果你是透過 svn 作為版本控管系統，那麼可以順便安裝 svn 的 clint command line 套件，那麼在 windwos 的 command line 就會有 svn 的指令囉！
+  版本控管軟體有很多套，這邊以 [svn](https://tortoisesvn.net/downloads.html) 為例，如果你是透過 svn 作為版本控管系統，那麼可以順便安裝 svn 的 clint command line 套件，那麼在 windwos 的 command line 就會有 svn 的指令囉！
 
   ```
   svn update [your project path]
@@ -154,6 +154,14 @@ MSBuild  D:\Dev\MyProject\project.sln /t:Rebuild /p:Configuration="Debug" /p:Pla
   ```
   
 > 我把範例 .bat 程式放在檔案中，可以隨意參考。
+
+## 補充說明
+
+1. 從 VisualStudio 中的 output 視窗找到 VS 是用哪邊的 MSBuild 去編譯專案。（所以也可以直接拿這個 MSBuild 的 bin 資料夾路徑作為環境變數設定）
+
+2. Windows 環境變數設定。(加上環境變數請用 ; 分號隔開，不要取代原本的東西，否則會發生很可怕的事...)
+
+3. svn command line 安裝。 (預設這個選項是不安裝的，請手動把他打開)
 
 ## References
 
